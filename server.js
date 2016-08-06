@@ -3,7 +3,7 @@ var app = express();
 var port = process.env.port || 1337;
 app.use('/public', express.static('./public/'));
 app.get('/',function(req,res) {
-	res.sendFile(__dirname + '/index.html');
+	res.sendFile(__dirname + '/tes.html');
 });
 
 app.listen(port, function() {
